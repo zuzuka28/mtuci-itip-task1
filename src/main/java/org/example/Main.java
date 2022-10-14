@@ -119,22 +119,27 @@ public class Main {
 
     }
 
+    // task 1
     public static int remainder(int a, int b) {
         return a % b;
     }
 
+    // task 2
     public static double triArea(double a, double h) {
         return (a * h) / 2;
     }
 
+    // task 3
     public static int animals(int chicks, int cows, int pigs) {
         return 2 * chicks + 4 * cows + 4 * pigs;
     }
 
+    // task 4
     public static boolean profitableGamble(double prob, int prize, int pay) {
         return prob * prize > pay;
     }
 
+    // task 5
     public static String operation(int n, int b, int c) {
         if (b + c == n) {
             return "added";
@@ -148,10 +153,12 @@ public class Main {
         return "none";
     }
 
+    // task 6
     public static int ctoa(char s) {
         return (int) s;
     }
 
+    // task 7
     public static int addUpTo(int s) {
         int t = 0;
         for (int i = 1; i <= s; i++) {
@@ -160,10 +167,12 @@ public class Main {
         return t;
     }
 
+    // task 8
     public static int nextEdge(int a, int b) {
         return a + b - 1;
     }
 
+    // task 9
     public static int sumOfCubes(int[] mas) {
         int t = 0;
         for (int i: mas){
@@ -171,6 +180,8 @@ public class Main {
         }
         return t;
     }
+
+    // task 10
     public static boolean abcmath(int a, int b, int c) {
         int t = a;
         for (int i = 0; i <= b; i++){
